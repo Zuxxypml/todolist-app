@@ -5,7 +5,7 @@ const app = express();
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 app.set("view engine", "ejs");
-let newTodos = ["Brush my Teeth", "Eat Breakfast"];
+let newTodos = [];
 let workTodo = [];
 app.get("/", (req, res) => {
   let currentDay = day.getDate();
