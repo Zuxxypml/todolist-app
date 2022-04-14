@@ -1,3 +1,3 @@
 # todolist-app
-A Very Functional Todolist App made with EJS and Node.js
-Vaersion 2 With a mongoDB database
+A Functional Todolist App made with EJS and Node.js
+Version 2 With a mongoDB database Coming Soon
