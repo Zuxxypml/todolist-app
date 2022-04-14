@@ -4,12 +4,12 @@
     <h1><%= listTitle %></h1>
   </div>
   <div class="box">
-    <% for(i = 0; i< newItem.length; i++){ %>
+    <% newItem.forEach(item => { %>
     <div class="item">
       <input type="checkbox" />
-      <p><%=newItem[i]%></p>
+      <p><%=item.name%></p>
     </div>
-    <%}%>
+    <% }); %>
     <form class="item" action="/" method="post">
       <input
         type="text"
